@@ -72,7 +72,7 @@ main(args)
 
 
 ### 3. 使用評估工具比較合成資料與真實資料的統計相似性
-[syndata_quility_evaluate.ipynb](syndata_quility_evaluate.ipynb)
+[syndata_quality_evaluate.ipynb](syndata_quality_evaluate.ipynb)
 
 修改真實資料與合成資料 csv 檔案路徑
 ```python
