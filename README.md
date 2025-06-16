@@ -27,11 +27,12 @@ form https://www.kaggle.com/c/boston-housing/overview
 ### 1. 訓練合成資料產生器
 使用 [syndata_model_train_py36.ipynb](syndata_model_train_py36.ipynb)
 
+修改以下三個參數，執行合成資料模型訓練
+
 參數說明:
 - input_path: 真實資料 csv 路徑
 - output_dir: 合成資料與模型輸出路徑
 - primary_key: 表單的 key 值欄位名稱
-修改以上三個參數，執行合成資料模型訓練
 ```python
 args = set_args([
     "--input_path", "input/data.csv", # input 真實資料 csv 格式的表單
