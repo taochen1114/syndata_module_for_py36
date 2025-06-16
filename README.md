@@ -22,10 +22,10 @@ pip install scipy==1.2.3 sdmetrics==0.0.2.dev0
 測試範例資料
 form https://www.kaggle.com/c/boston-housing/overview
 
-放在 input/data.csv
+放在 [input/data.csv](input/data.csv)
 
 ### 1. 訓練合成資料產生器
-使用 `syndata_model_train_py36.ipynb`
+使用 [syndata_model_train_py36.ipynb](syndata_model_train_py36.ipynb)
 
 修改前兩個參數，分別是真實資料的路徑，以及合成資料模型輸出的資料夾
 ```python
@@ -48,7 +48,7 @@ main(args)
 除了模型外這個步驟也會產出 100(預設) row 的合成資料 csv 檔放在 output_dir 中
 
 ### 2. 使用合成資料產生器生成合成資料
-使用 `syndata_generator_py36.ipynb`
+使用 [syndata_generator_py36.ipynb](syndata_generator_py36.ipynb`)
 載入上一步驟訓練好的合成資料模型 `syn_model_GaussianCopula.pkl` 檔，生成合成資料
 
 參數說明:
@@ -72,7 +72,7 @@ main(args)
 
 
 ### 3. 使用評估工具比較合成資料與真實資料的統計相似性
-`syndata_quility_evaluate.ipynb`
+[syndata_quility_evaluate.ipynb](`syndata_quility_evaluate.ipynb`)
 
 修改真實資料與合成資料 csv 檔案路徑
 ```python
