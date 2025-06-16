@@ -1,0 +1,1 @@
+# syndata_module_for_py36
