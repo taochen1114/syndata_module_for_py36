@@ -48,7 +48,7 @@ main(args)
 除了模型外這個步驟也會產出 100(預設) row 的合成資料 csv 檔放在 output_dir 中
 
 ### 2. 使用合成資料產生器生成合成資料
-使用 [syndata_generator_py36.ipynb](syndata_generator_py36.ipynb`)
+使用 [syndata_generator_py36.ipynb](syndata_generator_py36.ipynb)
 載入上一步驟訓練好的合成資料模型 `syn_model_GaussianCopula.pkl` 檔，生成合成資料
 
 參數說明:
@@ -72,7 +72,7 @@ main(args)
 
 
 ### 3. 使用評估工具比較合成資料與真實資料的統計相似性
-[syndata_quility_evaluate.ipynb](`syndata_quility_evaluate.ipynb`)
+[syndata_quility_evaluate.ipynb](syndata_quility_evaluate.ipynb)
 
 修改真實資料與合成資料 csv 檔案路徑
 ```python
